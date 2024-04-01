@@ -1,0 +1,482 @@
+@import url(https://db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro+Regular);
+@font-face {
+  font-family: "BMWTypeNext Pro Regular";
+  src: url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot");
+  src: url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro Regular")
+      format("svg");
+}
+* {
+  box-sizing: border-box;
+  font-family: "BMWTypeNext Pro Regular";
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.xdrive50 {
+  background-image: url(images/feature1new.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120vh;
+  color: white;
+}
+/* **********************header************************* */
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 90px;
+}
+.xdrive50 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: rgba(0, 0,0, 0.1); */
+  color: white;
+}
+.xdrive50 li {
+  float: left;
+}
+.xdrive50 li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px 5px;
+  margin-left: 15px;
+  color: white;
+  cursor: pointer;
+}
+.xdrive50 li a:hover {
+  border-bottom: 5px solid #0066b1;
+}
+.icons {
+  float: right;
+  display: flex;
+  transform: translateX(600px);
+
+}
+.icons,.info {
+  margin-top: 10px;
+}
+#borderBottom {
+  position: absolute;
+  border-bottom: 2px solid white;
+  left: 5%;
+  right: 5%;
+}
+.xdrivedescription {
+  margin-top: 220px;
+  margin-left: 100px;
+  line-height: 55px;
+  letter-spacing: 2px;
+}
+.xdrivedescription p {
+  font-size: 15px;
+  transform: scaleY(0.9);
+}
+.xdrivedescription h1 {
+  font-size: 55px;
+  transform: scaleY(1.5);
+  font-weight: 1;
+}
+.stayahead {
+  font-weight: normal;
+  font-size: larger;
+  transform: scaleY(1.9);
+}
+.xdrivedescription button {
+  background-color: #1c69d4;
+  height: 55px;
+  width: 180px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.xdrivedescription button:hover{
+    background-color: #195dbb;
+}
+/* ********************Feature2************************** */
+
+.eraX {
+  background-image: url(images/feature2.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  margin-top: 10px;
+  padding-top: 300px;
+  padding-left: 150px;
+}
+
+.eraXdescription p {
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  transform: scaleY(1.3);
+  letter-spacing: 3px;
+}
+.eraXdescription h1 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 95px;
+  transform: scaleY(1.6);
+  transform: scaleZ();
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+.newEra {
+  margin-top: 15px;
+  font-weight: lighter;
+  font-size: larger;
+  transform: scaleY(1.9);
+}
+.eraX button {
+  margin-top: 15px;
+  background-color: #1c69d400;
+  height: 55px;
+  width: 180px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.eraX button:hover{
+    border: 3px solid white;
+}
+/* ***************************Feature3********************************************* */
+.shoppingTools {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding-right: 0;
+}
+.shoppingTools h5 {
+  color: #666666;
+  letter-spacing: 5px;
+}
+.shoppingTools h1 {
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 2.8rem;
+}
+.carButtons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.findCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.testDrive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.buildCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.carButtons button {
+  height: 50px;
+  width: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  background-color: #1c69d400;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 2px;
+}
+.carButtons button:hover{
+    border: 3px solid;
+
+}
+
+/* ****************************feature4********************* */
+
+.sevenSeries{
+    margin-top: 30px;
+    background : url(images/7seriesfinal.jpg)rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-left: 150px;
+    line-height:60px;
+    letter-spacing: 2px;
+}
+.sevenSeries p{
+    font-size: 45px;
+    font-weight: lighter;
+    font-style: normal;
+
+}
+.sevenSeries button{
+ width: 350px;
+ height: 50px;
+ background-color: #1c69d400;
+ color: white;
+ font-size: 18px;
+ font-weight: bold;
+ border: 1px solid white;
+ border-radius: 2px; 
+ margin-top: 40px;
+ cursor: pointer;  
+}
+.sevenSeries button:hover{
+    border: 3px solid white;
+}
+
+/* ***************************************feature5*********************** */
+
+.iXoffers{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px;
+    
+}
+.iXoffers img{
+    height: 370px;
+    width: 660px;
+}
+.iX{
+    display: flex;
+}
+.iXdescription{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    justify-content: center;
+    text-align: left;
+}
+.iXdescription h5{
+    color: #666666;
+    letter-spacing: 5px;
+  }
+  .iXheading{
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  .iXpara{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: .4px;
+
+  }
+  .iXdescription button{
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .iXdescription button:hover{
+    border: 3px solid black;
+  }
+  
+
+
+
+  .offers{
+    margin-top: 45px;
+    display: flex;
+    
+}
+.offersdescription{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    justify-content: center;
+    text-align: left;
+}
+.offersdescription h5{
+    color: #666666;
+    letter-spacing: 5px;
+  }
+  .offersheading{
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  .offerspara{
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: .4px;
+
+  }
+  .offersdescription button{
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .offersdescription button:hover{
+    border: 3px solid black;
+  }
+  #borderFooter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e6e6e6;
+
+  }
+
+/* *******************************************FOOTER************************************************* */
+
+
+footer nav{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgba(0, 0,0, 0.1); */
+    color: white;
+  }
+  footer li {
+    float: left;
+  }
+  footer li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 5px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: .925rem;
+    color: black;
+  }
+  .find{
+    font-weight:lighter;
+    letter-spacing: 2px;
+
+  }
+  .allmodels{
+    font-weight: bold;
+  }
+  .allmodels:hover{
+    cursor: pointer;
+    color: #0066b1;
+  }
+  .find{
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  .find:hover{
+    cursor: text;
+  }
+  .footerinfo{
+    color: #666666;
+    background-color:#f6f6f6 ;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourlinksfooter{
+    background-color: #f6f6f6;
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+  .fourlinksfooter ul{
+    display: flex;
+    flex-direction: column;
+    color: #666666;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 44px;
+  }
+  .fourlinksfooter h5{
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
+  .footericons{
+    margin-left: 6%;
+
+  }
+  .footericons i:hover{
+    cursor: pointer;
+  }
+
+  .footericons i{
+    margin-right: 25px;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+  }
+  .bottomnav{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-top: 30px;
+    font-size: 1pc;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bottomnav li{
+    margin-left: 25px;
+    font-weight: bold;
+    color: #2c2c2c;
+    font-size: .75rem;
+  }
+  .bottomnav li:hover{
+    color: #0066b1;
+    cursor: pointer;
+  }
